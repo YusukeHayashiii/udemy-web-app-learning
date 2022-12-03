@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap');
+body {
+    background-color: #DDDDDD;
+    /* font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif; */
+    font-family: 'Yuji Mai', serif;
+}
+
+h1, h2, h3{
+    font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif;
+}
