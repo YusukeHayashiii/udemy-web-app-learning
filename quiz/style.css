@@ -8,3 +8,40 @@ body {
 h1, h2, h3{
     font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif;
 }
+
+h2 {
+    border-bottom: 1px solid #131414;
+}
+
+ul li, ol li {
+    padding: 1em;
+    list-style-position: inside;
+}
+
+ol.answers {
+    list-style: upper-alpha;
+}
+
+ol.answers li:hover {
+    border: 0.1em solid #707373;
+    background-color: #f4eded;
+    padding: 0.9em;
+    cursor: pointer;
+}
+
+div#section-correct-answer {
+    display: none;
+}
+
+span#correct-answer {
+    font-weight: bold;
+    color: rgb(124, 7, 7);
+}
+
+#main {
+    padding: 0 1.5em
+}
+
+div.section {
+    margin-top: 3em;
+}

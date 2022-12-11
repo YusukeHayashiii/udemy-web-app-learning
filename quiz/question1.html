@@ -8,24 +8,34 @@
     <title>問題1 | Quiz</title>
 </head>
 <body>
-    <h1>Quiz</h1>
-    <h2>問題1</h2>
-    <p>
-        HTMLはなんの略称？
-    </p>
-    <h3>選択肢</h3>
-    <ol>
-        <li>HyperTextMakingLanguage</li>
-        <li>HyperTextMarkupLanguage</li>
-        <li>HonmaniTensaitekinaMajidesugoiLanguage</li>
-        <li>略称ではない</li>
-    </ol>
+    <div id="main">
+        <h1>Quiz</h1>
 
-    <h2>答え</h2>
-    <p>
-        HyperTextMarkupLanguage<br>
-        これが間違えてたら「HTMLとは？」の動画を復習お願いします！
-    </p>
-    <a href="index.html">戻る</a>
+        <div class="section">
+            <h2>問題1</h2>
+            <p>
+                HTMLはなんの略称？
+            </p>
+            <h3>選択肢</h3>
+            <ol class="answers">
+                <li>HyperTextMakingLanguage</li>
+                <li>HyperTextMarkupLanguage</li>
+                <li>HonmaniTensaitekinaMajidesugoiLanguage</li>
+                <li>略称ではない</li>
+            </ol>
+        </div>
+
+        <div id="section-correct-answer" class="section">
+            <h2>答え</h2>
+            <p>
+                <span id="correct-answer"> HyperTextMarkupLanguage</span><br>
+                これが間違えてたら「HTMLとは？」の動画を復習お願いします！
+            </p>
+        </div>
+
+        <div class="section">
+            <a href="index.html">戻る</a>
+        </div>
+    </div>
 </body>
 </html>
